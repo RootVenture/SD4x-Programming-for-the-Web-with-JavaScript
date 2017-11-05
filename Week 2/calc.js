@@ -121,7 +121,7 @@ function doMath() {
     console.log("Multiply");
     display.val(firstHalf * secondHalf);
   }
-  firstHalf = display.val();
+  firstHalf = Number(display.val());
   operator = "";
   state = false;
   final = true;
