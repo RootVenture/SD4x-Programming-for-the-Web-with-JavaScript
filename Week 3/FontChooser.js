@@ -73,7 +73,7 @@ class FontChooser extends React.Component {
           type="checkbox"
           id="boldCheckbox"
           hidden="true"
-          defaultChecked={this.state.isBold}
+          checked={this.state.isBold}
           onChange={this.ChangeCheckbox.bind(this)}
         />
         <button
